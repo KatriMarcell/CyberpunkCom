@@ -1,0 +1,95 @@
+h4 {
+  font-family: "Share Tech Mono", monospace;
+  color: #f9ef1c;
+  text-align: center;
+}
+
+li {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #f9ef1c !important;
+  margin-right: 5px;
+}
+
+.d-flex {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+
+.fab {
+  color: #f9ef1c;
+}
+
+.fab:hover {
+  text-shadow: 0 0 10px #00e1ff;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 10px #00e1ff;
+}
+
+col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #7a7a7a;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg") black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .fab {
+    margin-bottom: 10%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

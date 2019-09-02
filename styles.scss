@@ -1,0 +1,95 @@
+$mainfont: 'Share Tech Mono', monospace;
+$secondaryfont: 'Montserrat', sans-serif;
+$trademarkcolor: #f9ef1c;
+
+h4{
+    font-family: $mainfont;
+    color: $trademarkcolor;
+    text-align: center;
+}
+li{
+font-family: $mainfont;
+font-size: 20px;
+}
+.nav-link{
+    color: $trademarkcolor !important;
+    margin-right: 5px;
+}
+.d-flex{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.fab{
+    color: $trademarkcolor;
+}
+
+.fab:hover{
+    text-shadow: 0 0 10px rgb(0, 225, 255);
+}
+
+.nav-link:hover{
+    text-shadow: 0 0 10px rgb(0, 225, 255);
+
+}
+col{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: black;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(122, 122, 122);
+    opacity: 0.3;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('http://sandbox.thewikies.com/vfe-generator/images/big-buck-bunny_poster.jpg') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .fab {
+      margin-bottom: 10%;
+    }
+  }
+  
